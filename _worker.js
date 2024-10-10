@@ -99,7 +99,7 @@ export default {
 						});
 					}
 					default:
-						url.hostname = 'piped.kavin.rocks';
+						url.hostname = 'tamin.ir';
 						url.protocol = 'https:';
 						request = new Request(url, request);
 						return await fetch(request);
